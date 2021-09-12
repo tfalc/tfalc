@@ -5,13 +5,13 @@
 
 Here are some ideas to get you started: 
 <!-- 💬 Ask me about ... -->
-<!-- ⚡ Fun fact: ... -->
+<!-- ⚡ Fun fact: ... 
+- 📫 How to reach me: ...-->
 
 - 🔭 I’m currently working on building my knowledge!
 - 🌱 I’m currently learning Java/Springboot/Angular
 - 👯 I’m looking to collaborate on any java project
 - 🤔 I’m looking for help with coding
-- 📫 How to reach me: ...
 - 😄 Pronouns: He/Him/Ele/Dele
 
 <div>
