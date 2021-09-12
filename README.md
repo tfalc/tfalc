@@ -6,7 +6,6 @@
 Here are some ideas to get you started: 
 <!-- 💬 Ask me about ... -->
 <!-- ⚡ Fun fact: ... -->
--->
 
 - 🔭 I’m currently working on building my knowledge!
 - 🌱 I’m currently learning Java/Springboot/Angular
@@ -29,4 +28,9 @@ Here are some ideas to get you started:
   <img align="center" alt="tfalc-HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg">
   <img align="center" alt="tfalc-CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg">
   <img align="center" alt="tfalc-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+</div>
+  
+##
+<div>
+  <a href="https://www.linkedin.com/in/thiagofalcao86/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style-for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
