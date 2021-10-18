@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...-->
 
 - 🔭 I’m currently working on building my knowledge in Java!
-- 🌱 I’m currently learning Java/Springboot/Angular
+- 🌱 I’m currently building my knowledge in Java/Springboot/Angular
 - 👯 I’m looking to collaborate on any java project
 - 🤔 I’m looking for help with coding
 - 😄 Pronouns: He/Him/Ele/Dele
