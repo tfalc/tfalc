@@ -13,7 +13,20 @@ Senior Java Engineer | Backend & Cloud, based in Rio de Janeiro, Brazil 🇧🇷
 
 <!--STATS:START-->
 ```text
-(será preenchido automaticamente pelo workflow)
+Repositories: 82
+Total stars: 2
+Commits (last year): 76
+Contributions (last year): 267
+Pull requests: 54
+Issues: 1
+
+Top languages:
+- Python        95.0% |███████████████████████░|
+- Jupyter Notebook   3.0% |█░░░░░░░░░░░░░░░░░░░░░░░|
+- Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- JavaScript     0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- HTML           0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
 ```
 <!--STATS:END-->
 
