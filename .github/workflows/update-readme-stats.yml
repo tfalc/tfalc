@@ -35,8 +35,8 @@ jobs:
 
       - name: Commit README changes if any
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Thiago Falcão da Silva"
+          git config --local user.email "thiago.falcao86@gmail.com"
           git add README.md
           set -o pipefail
           if git diff --staged --quiet; then
