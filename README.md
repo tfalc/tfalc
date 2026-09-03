@@ -48,6 +48,27 @@ no third-party services.)*
 
 <!--STATS:START-->
 ```text
-(será preenchido automaticamente pelo workflow)
+Repositories: 82 (with languages: 72)
+Total stars: 2
+Commits (last year): 83
+Contributions (last year): 276
+Pull requests: 56
+Issues: 1
+
+Top languages — by repository (primary language):
+- Java          54.2% |█████████████░░░░░░░░░░░| (39 repos)
+- HTML          11.1% |███░░░░░░░░░░░░░░░░░░░░░| (8 repos)
+- Python        11.1% |███░░░░░░░░░░░░░░░░░░░░░| (8 repos)
+- JavaScript     9.7% |██░░░░░░░░░░░░░░░░░░░░░░| (7 repos)
+- TypeScript     4.2% |█░░░░░░░░░░░░░░░░░░░░░░░| (3 repos)
+- Kotlin         2.8% |█░░░░░░░░░░░░░░░░░░░░░░░| (2 repos)
+
+Top languages — by code volume (bytes):
+- Python        95.0% |███████████████████████░| (135894333 bytes)
+- Jupyter Notebook   3.0% |█░░░░░░░░░░░░░░░░░░░░░░░| (4261282 bytes)
+- Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░| (1041537 bytes)
+- TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░| (643895 bytes)
+- JavaScript     0.2% |░░░░░░░░░░░░░░░░░░░░░░░░| (352352 bytes)
+- HTML           0.2% |░░░░░░░░░░░░░░░░░░░░░░░░| (307438 bytes)
 ```
 <!--STATS:END-->
