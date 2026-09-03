@@ -11,37 +11,24 @@ Senior Java Engineer | Backend & Cloud, based in Rio de Janeiro, Brazil 🇧🇷
 - 👯 Open to collaborating on backend, cloud, or AI-tooling projects
 - 😄 Pronouns: He/Him/Ele/Dele
 
-<!--STATS:START-->
-```text
-Repositories: 82
-Total stars: 2
-Commits (last year): 76
-Contributions (last year): 267
-Pull requests: 54
-Issues: 1
+📬 Open to backend, cloud, or AI-tooling opportunities — reach out via [LinkedIn](https://www.linkedin.com/in/thiagofalcaosilva/)
 
-Top languages:
-- Python        95.0% |███████████████████████░|
-- Jupyter Notebook   3.0% |█░░░░░░░░░░░░░░░░░░░░░░░|
-- Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░|
-- TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░|
-- JavaScript     0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
-- HTML           0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
-```
-<!--STATS:END-->
+#### Languages & Frameworks
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="tfalc-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
-  <img align="center" alt="tfalc-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
-  <img align="center" alt="tfalc-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="tfalc-FastAPI" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg">
-  <img align="center" alt="tfalc-AWS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg">
-  <img align="center" alt="tfalc-Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
-  <img align="center" alt="tfalc-PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
-  <img align="center" alt="tfalc-Kafka" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg">
-  <img align="center" alt="tfalc-Angular" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
-  <img align="center" alt="tfalc-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-</div>
+#### Cloud & Infra
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+#### Data
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+#### Observability
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+
+#### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+
 
 ##
 
@@ -50,3 +37,9 @@ Top languages:
   <a href="mailto:thiago.falcao86@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://t.me/TFalcao" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a>
 </div>
+
+<!--STATS:START-->
+```text
+(será preenchido automaticamente pelo workflow)
+```
+<!--STATS:END-->
