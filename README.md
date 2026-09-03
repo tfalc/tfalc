@@ -66,7 +66,7 @@ Top languages — by repository (primary language):
 - Kotlin         2.8% |█░░░░░░░░░░░░░░░░░░░░░░░| (2 repos)
 
 Top languages — by code volume (bytes):
-- Python        95.0% |███████████████████████░| (135894333 bytes)
+- Python        95.0% |███████████████████████░| (135893843 bytes)
 - Jupyter Notebook   3.0% |█░░░░░░░░░░░░░░░░░░░░░░░| (4261282 bytes)
 - Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░| (1041537 bytes)
 - TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░| (643895 bytes)
