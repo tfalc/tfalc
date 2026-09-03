@@ -14,10 +14,23 @@ Senior Java Engineer | Backend & Cloud, based in Rio de Janeiro, Brazil 🇧🇷
 <div>
   <a href="https://beacons.ai/tfalc">
     <!--STATS:START-->
-    ```text
-    (será preenchido automaticamente pelo workflow)
-    ```
-    <!--STATS:END-->
+```text
+Repositories: 66
+Total stars: 2
+Commits (last year): 62
+Contributions (last year): 250
+Pull requests: 35
+Issues: 1
+
+Top languages:
+- Python        98.3% |████████████████████████|
+- Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- PowerShell     0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- HTML           0.1% |░░░░░░░░░░░░░░░░░░░░░░░░|
+- CSS            0.1% |░░░░░░░░░░░░░░░░░░░░░░░░|
+```
+<!--STATS:END-->
   </a>
 </div>
 
