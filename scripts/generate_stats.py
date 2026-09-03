@@ -31,13 +31,13 @@ session.headers.update({
     "User-Agent": "generate-readme-stats-script"
 })
 
-# Fetch public repos (paginated)
+# Fetch repos for the authenticated user (includes private when token has repo scope)
 repos = []
 page = 1
 per_page = 100
 while True:
-    url = f"{API_BASE}/users/{GH_USERNAME}/repos"
-    params = {"per_page": per_page, "page": page, "type": "owner", "sort": "full_name"}
+    url = f"{API_BASE}/user/repos"
+    params = {"per_page": per_page, "page": page, "visibility": "all", "affiliation": "owner", "sort": "full_name"}
     r = session.get(url, params=params)
     if r.status_code != 200:
         print(f"Failed to fetch repos: {r.status_code} {r.text}", file=sys.stderr)
@@ -50,8 +50,8 @@ while True:
         break
     page += 1
 
-# Filter public non-fork repositories
-repos = [r for r in repos if not r.get("fork") and not r.get("private")]
+# Filter non-fork repositories (keep private and public)
+repos = [r for r in repos if not r.get("fork")]
 repo_count = len(repos)
 
 total_stars = sum(r.get("stargazers_count", 0) for r in repos)
