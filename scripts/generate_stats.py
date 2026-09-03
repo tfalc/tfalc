@@ -138,11 +138,22 @@ except FileNotFoundError:
     print(f"README not found at {README_PATH}", file=sys.stderr)
     sys.exit(7)
 
-pattern = re.compile(r"<!--STATS:START-->.*?<!--STATS:END-->", re.DOTALL)
-if pattern.search(content):
-    new_content = pattern.sub(md_block, content)
+# Safely replace only between exact markers using string indices
+start_marker = "<!--STATS:START-->"
+end_marker = "<!--STATS:END-->"
+start_idx = content.find(start_marker)
+if start_idx != -1:
+    end_idx = content.find(end_marker, start_idx)
+    if end_idx != -1:
+        # Replace entire marker block with generated md_block
+        new_content = content[:start_idx] + md_block + content[end_idx + len(end_marker):]
+    else:
+        # No end marker found: append md_block at end
+        if not content.endswith("\n"):
+            content += "\n"
+        new_content = content + "\n" + md_block + "\n"
 else:
-    # append at end with a newline
+    # markers not present: append md_block at end
     if not content.endswith("\n"):
         content += "\n"
     new_content = content + "\n" + md_block + "\n"
