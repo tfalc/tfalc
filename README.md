@@ -13,20 +13,28 @@ Senior Java Engineer | Backend & Cloud, based in Rio de Janeiro, Brazil 🇧🇷
 
 <!--STATS:START-->
 ```text
-Repositories: 82
+Repositories: 82 (with languages: 72)
 Total stars: 2
-Commits (last year): 76
-Contributions (last year): 267
-Pull requests: 54
+Commits (last year): 78
+Contributions (last year): 270
+Pull requests: 55
 Issues: 1
 
-Top languages:
-- Python        95.0% |███████████████████████░|
-- Jupyter Notebook   3.0% |█░░░░░░░░░░░░░░░░░░░░░░░|
-- Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░|
-- TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░|
-- JavaScript     0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
-- HTML           0.2% |░░░░░░░░░░░░░░░░░░░░░░░░|
+Top languages — by repository (primary language):
+- Java          54.2% |█████████████░░░░░░░░░░░| (39 repos)
+- HTML          11.1% |███░░░░░░░░░░░░░░░░░░░░░| (8 repos)
+- Python        11.1% |███░░░░░░░░░░░░░░░░░░░░░| (8 repos)
+- JavaScript     9.7% |██░░░░░░░░░░░░░░░░░░░░░░| (7 repos)
+- TypeScript     4.2% |█░░░░░░░░░░░░░░░░░░░░░░░| (3 repos)
+- Kotlin         2.8% |█░░░░░░░░░░░░░░░░░░░░░░░| (2 repos)
+
+Top languages — by code volume (bytes):
+- Python        95.0% |███████████████████████░| (135893843 bytes)
+- Jupyter Notebook   3.0% |█░░░░░░░░░░░░░░░░░░░░░░░| (4261282 bytes)
+- Java           0.7% |░░░░░░░░░░░░░░░░░░░░░░░░| (1041537 bytes)
+- TypeScript     0.5% |░░░░░░░░░░░░░░░░░░░░░░░░| (643895 bytes)
+- JavaScript     0.2% |░░░░░░░░░░░░░░░░░░░░░░░░| (352352 bytes)
+- HTML           0.2% |░░░░░░░░░░░░░░░░░░░░░░░░| (307438 bytes)
 ```
 <!--STATS:END-->
 
