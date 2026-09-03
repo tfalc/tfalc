@@ -11,12 +11,11 @@ Senior Java Engineer | Backend & Cloud, based in Rio de Janeiro, Brazil 🇧🇷
 - 👯 Open to collaborating on backend, cloud, or AI-tooling projects
 - 😄 Pronouns: He/Him/Ele/Dele
 
-<div>
-  <a href="https://beacons.ai/tfalc">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tfalc&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tfalc&layout=compact&langs_count=10&theme=tokyonight" />
-  </a>
-</div>
+<!--STATS:START-->
+```text
+(será preenchido automaticamente pelo workflow)
+```
+<!--STATS:END-->
 
 <div style="display: inline_block"><br>
   <img align="center" alt="tfalc-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
