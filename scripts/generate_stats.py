@@ -56,8 +56,10 @@ repo_count = len(repos)
 
 total_stars = sum(r.get("stargazers_count", 0) for r in repos)
 
-# Aggregate languages
+# Aggregate languages and compute primary-language counts
 lang_totals: Dict[str, int] = {}
+repo_primary_counts: Dict[str, int] = {}
+repos_with_lang = 0
 for r in repos:
     full_name = r.get("full_name")
     if not full_name:
@@ -67,16 +69,28 @@ for r in repos:
         print(f"Failed to fetch languages for {full_name}: {lr.status_code} {lr.text}", file=sys.stderr)
         sys.exit(4)
     data = lr.json()
+    if data:
+        repos_with_lang += 1
+        # determine primary language for this repo (max bytes)
+        primary = max(data.items(), key=lambda x: x[1])[0]
+        repo_primary_counts[primary] = repo_primary_counts.get(primary, 0) + 1
     for lang, bytes_count in data.items():
         lang_totals[lang] = lang_totals.get(lang, 0) + bytes_count
 
 # Compute top 6 languages by bytes
 total_bytes = sum(lang_totals.values())
-lang_list = []
+by_bytes = []
 if total_bytes > 0:
     for lang, b in sorted(lang_totals.items(), key=lambda x: x[1], reverse=True)[:6]:
         pct = (b / total_bytes) * 100
-        lang_list.append((lang, b, pct))
+        by_bytes.append((lang, b, pct))
+
+# Compute top 6 languages by repo count
+by_repo = []
+if repos_with_lang > 0:
+    for lang, cnt in sorted(repo_primary_counts.items(), key=lambda x: x[1], reverse=True)[:6]:
+        pct = (cnt / repos_with_lang) * 100
+        by_repo.append((lang, cnt, pct))
 
 # GraphQL: contributions and counts
 graphql_query = '''
@@ -109,23 +123,29 @@ contributions_last_year = contribs.get("contributionCalendar", {}).get("totalCon
 pr_count = user.get("pullRequests", {}).get("totalCount", 0)
 issues_count = user.get("issues", {}).get("totalCount", 0)
 
-# Build ASCII block
+# Build ASCII block with two metrics: by repo count and by code volume
 def bar(pct, width=24):
     filled = int(round((pct / 100.0) * width))
     filled = max(0, min(width, filled))
     return "█" * filled + "░" * (width - filled)
 
 lines = []
-lines.append(f"Repositories: {repo_count}")
+lines.append(f"Repositories: {repo_count} (with languages: {repos_with_lang})")
 lines.append(f"Total stars: {total_stars}")
 lines.append(f"Commits (last year): {commits_last_year}")
 lines.append(f"Contributions (last year): {contributions_last_year}")
 lines.append(f"Pull requests: {pr_count}")
 lines.append(f"Issues: {issues_count}")
 lines.append("")
-lines.append("Top languages:")
-for lang, b, pct in lang_list:
-    lines.append(f"- {lang.ljust(12)} {pct:5.1f}% |{bar(pct)}|")
+
+# If combined width would be too wide, stack vertically. Use stacked format for reliability.
+lines.append("Top languages — by repository (primary language):")
+for lang, cnt, pct in by_repo:
+    lines.append(f"- {lang.ljust(12)} {pct:5.1f}% |{bar(pct)}| ({cnt} repos)")
+lines.append("")
+lines.append("Top languages — by code volume (bytes):")
+for lang, b, pct in by_bytes:
+    lines.append(f"- {lang.ljust(12)} {pct:5.1f}% |{bar(pct)}| ({b} bytes)")
 
 block = "\n".join(lines)
 md_block = "<!--STATS:START-->\n```text\n" + block + "\n```\n<!--STATS:END-->"
